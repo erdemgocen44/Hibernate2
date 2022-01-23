@@ -20,11 +20,11 @@ public class Student {
     public Student() {
     }
 
-    public Student(int std_id, String name, int grade,String email) {
+    public Student(int std_id, String name, String email, int grade) {
         this.std_id = std_id;
         this.name = name;
+        this.email = email;
         this.grade = grade;
-        this.email=email;
     }
 
     public String getEmail() {
